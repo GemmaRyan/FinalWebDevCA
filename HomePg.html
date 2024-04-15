@@ -1,0 +1,177 @@
+l<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="ie=chrome">
+        <meta name="discription" content="Dog Adoption Webpage">
+        <meta name="keywords" content="Dog, Adoption, Choice, college website">
+        <title> Dog Adoption</title>
+        <link rel="stylesheet" href="Style/style.css">
+    </head>
+    <body>
+    <!-- header section start -->
+    <style>
+        header
+        {
+            position: fixed;
+            top: 0;
+            left:0;
+            right: 0;
+            background: #c9eeea;
+            padding: 2rem 9%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            z-index: 1000;
+            box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1)
+        }
+    </style>
+        <header>
+            <input type="checkbox" name="" id="toggler">
+            <label for="toggler" class="fas fa-bars"></label>
+
+            <a href="#" class="logo"><span style="color:var(--Darkgreen) ;">4</span>Ever<span>Homes</span></a>
+
+            <nav class="navbar">
+                <a href="HomePg.html">home</a>
+                <a href="About.html">about</a>
+                <a href="Dogs.html">dogs</a>
+                <a href="Contact.html">contact</a>
+            </nav>
+        </header>
+
+        <!-- header section ends -->
+        <!-- home sections begins-->
+        <section class="home" id="home"> 
+            <div class="content" style="max-width: 50rem;">
+                <h3>dogs</h3>
+                <span>This is a college website!!</span>
+                <p>A bit of waffle regarding Dogs</p>
+                <a href="https://www.akc.org/expert-advice/lifestyle/10-science-based-benefits-dog/#:~:text=Dogs%20can%20be%20there%20for,dog%20ownership%20can%20reduce%20loneliness." class="btn">Look here</a>
+            </div> 
+        </section>
+        <!-- home sections ends -->
+
+        <!-- about section starts-->
+        <section class="about" id="about">
+            <h1 class="heading">
+                <span>about </span>us
+            </h1>
+            <div class="row">
+                <div class="video-container">
+                    <video src="Images/terrierVid.mp4" loop autoplay muted></video> 
+                    <h3>best dog</h3>
+                    
+                </div>
+                <div class="content">
+                    <h3>why choose us?</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo esse autem, 
+                        expedita ipsum, ratione asperiores vitae consequuntur quisquam ut est 
+                        libero velit suscipit et numquam, animi nihil accusamus cumque. Consequatur.
+                    </p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda dolor 
+                        consequuntur eos asperiores facilis itaque quibusdam nesciunt ipsa eius nobis!
+                    </p>
+                    <a href="#" class="btn">learn more</a>
+                </div>
+            </div>
+        </section>
+        <!-- about section ends-->
+
+        <!-- product section starts -->
+        <section class="products" id="products">
+            <h1 class="heading">latest <span>Dogs</span></h1>   
+            <div class="box-container">
+                <div class="box">
+                    <div class="image">
+                        <img src="Images/dog1.jpg" alt="">      <!--Dog 1-->
+                        <div class="icons">
+                            <a href="#" class="dogoffer">Pookie</a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>Pookie</h3>
+                    </div>
+                </div>
+                                        
+                <div class="box">
+                    <div class="image">
+                        <img src="Images/dog2.jpg" alt="">      <!--Dog 2-->
+                        <div class="icons">
+                            <a href="#" class="dogoffer">Bosh</a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>Bosh</h3>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="Images/dog3.jpg" alt="">          <!--Dog 3-->
+                        <div class="icons">
+                            <a href="#" class="dogoffer">Banana</a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>Banana</h3>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="Images/dog4.jpg" alt="">          <!--Dog 4-->
+                        <div class="icons">
+                            <a href="#" class="dogoffer">Bread</a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <h3>Bread</h3>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- product section ends -->
+
+        <!-- Contact section starts -->
+        <section class="contact" id="contact">
+            <h1 class="heading"><span>contact </span>us</h1>
+            <div class="row">
+                <form action="">
+                    <input type="text" placeholder="name" class="box">
+                    <input type="email" placeholder="email" class="box">
+                    <input type="number" placeholder="number" class="box">
+                    <textarea name="" class="box" placeholder="message" id="" cols="30" rows="10"></textarea>
+                    <input type="submit" value="send message" class="btn">
+                </form>
+                <div class="image">
+                    <img src="Images/ContactInfoDog.jpg " alt="" >  
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact section ends -->
+
+        <!-- Footer section start -->
+        <section class="footer">
+            <div class="box-container">
+                <div class="box">
+                    <h3>quick links</h3>
+                    <a href="HomePg.html">home</a>
+                    <a href="About.html">about</a>
+                    <a href="Dogs.html">dogs</a>
+                    <a href="Contact.html">contact</a>
+                </div>
+                <div class="box">
+                    <h3>contact info</h3>
+                    <a href="#">083-232-3232-3232</a> 
+                    <a href="#">example@gmail.com</a> 
+                </div>
+            </div>
+            <div class="credit">Created for a <span>1st year college project</span>
+            </div>
+        </section>
+        <!-- Footer section ends -->
+    </body>
+</html>
